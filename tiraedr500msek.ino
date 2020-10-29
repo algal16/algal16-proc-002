@@ -29,7 +29,7 @@ do
   skaits=skaits+1;
  } while (millis() - laiks0 <500);
 videjais = summa / skaits;
-videjais = videjais*100;
+
 Serial.println (int(videjais));
 
 }
